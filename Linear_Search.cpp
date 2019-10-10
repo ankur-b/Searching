@@ -10,7 +10,7 @@ int main() {
     cin >> arr[i];
   }
   cout << "Enter the number to be searched : ";
-  cin >> num;
+  cin >> num;    // inputs the num value
   for (i = 0; i < n; i++) {
     if (arr[i] == num) {
       c = 1;
@@ -21,7 +21,7 @@ int main() {
   if (c == 0) {
     cout <<"Number not found..!!";
   } else {
-    cout <<"found at position " << pos;
+    cout <<"found at position " << pos; // prints postion
   }
 }
 
